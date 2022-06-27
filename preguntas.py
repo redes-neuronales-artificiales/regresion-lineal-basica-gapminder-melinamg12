@@ -94,7 +94,7 @@ def pregunta_03():
     ).reshape(-1, 1)
 
     # Entrene el modelo usando X_fertility y y_life
-    reg.fit(X_fertility, y_life)
+    reg.fit(X_fertility,y_life)
 
     # Compute las predicciones para el espacio de predicción
     y_pred = reg.predict(prediction_space)
